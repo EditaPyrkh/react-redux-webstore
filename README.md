@@ -1,28 +1,25 @@
+# Phone webstore built up with React(react-dom, react-router; redux, redux-thunk; ramda)
+
+1. Displays item's(phones) cards with short info and two buttons ("more info", "add to cart"), shopping cart, list of brands to sort from, quick shop search input, "load more" button
+2. Each item card has its own page with full discription and data array using backend list of ids, categories, descriptions, etc.
+3. You can add items to cart, delete items from cart, see each and total prices
+4. List of brands allows to sort out items by categories using unique ids
+5. "Load more" button shows up more items from mocking list
+6. Flexible design
+   
+![React_Redux smartphone webstore](https://github.com/EditaPyrkh/react-redux-webstore/assets/113599547/4a0c013d-70c4-49b5-ad1e-b659bb31f1d0)
+
+## What else could be done:
+1. Search input accepts any upper\lower case typing
+2. Shopping cart button need a little fix (not flexible enough)
+
+Thank you!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
